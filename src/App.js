@@ -6,6 +6,7 @@ import { Nav, Navbar} from "react-bootstrap";
 import Profile from './Screens/Profile';
 import Education from "./Screens/Education";
 import Experience from "./Screens/Experience";
+import Skills from "./Screens/Skills";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
 <Profile/>
 <Education/>
 <Experience/>
+<Skills/>
 </div>
 );
 }

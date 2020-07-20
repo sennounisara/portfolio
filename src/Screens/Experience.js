@@ -58,7 +58,7 @@ export default function Experience() {
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineDot>
-                        <FastfoodIcon />
+                        <LaptopMacIcon />
                     </TimelineDot>
                     <TimelineConnector className="languer" />
                 </TimelineSeparator>
@@ -85,10 +85,10 @@ export default function Experience() {
                 <TimelineContent>
                     <Paper elevation={3} className={classes.paper}>
                         <Typography variant="h6" component="h1">
-                            GEOFIT
+                            Pexiluis Africa
                         </Typography>
-                        <Typography>Development of a decision information system for Pexiluis Africa
-                            management.
+                        <Typography>
+                            Development of a decision information system for Pexiluis Africa management.
                         </Typography>
                     </Paper>
                 </TimelineContent>

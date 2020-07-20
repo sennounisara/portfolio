@@ -1,14 +1,17 @@
 import * as React from "react";
+import {Container, Row} from "react-bootstrap";
+import Col from "react-bootstrap/Col";
 
 class Education extends React.Component {
     render() {
         return (
 
-            <div id="education" className="btn-flat">
+            <div id="education" className="education">
                 <style type="text/css">
                     {`
-                        .btn-flat {
+                        .education {
                           background-color: #f8f9fa;
+                          padding : 50px;
                         }
                     
                         .btn-xxl {
@@ -17,7 +20,8 @@ class Education extends React.Component {
                         }
                         `}
                 </style>
-                hello world
+                <p>“Sometimes the questions are complicated and the answers are simple.<br/>”Dr. Seuss</p>
+
             </div>
         );
     }
