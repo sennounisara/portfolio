@@ -14,10 +14,9 @@ class Skills extends React.Component {
                 <style type="text/css">
                     {`
                         .skills {
-                          background-color: #f8f9fa;
                           padding : 50px;
                         }
-                        `}
+                     `}
                 </style>
                 <Container >
                     <Row>
@@ -26,23 +25,25 @@ class Skills extends React.Component {
                     <Row>
                         <Col lg={3}><Image src={web} class />
                             <h6>Web Development</h6>
+                            <p>Spring, Bootstrap, React, Angular</p>
                         </Col>
                         <Col lg={3}>
                             <Image src={mobile}/>
                             <h6>Mobile Development</h6>
+                            <p>Android, Ionic, React, Flutter</p>
                         </Col>
                         <Col lg={3}>
                             <Image src={db}/>
                             <h6>Data Base</h6>
+                            <p>Oracle, SQL, SQLite, MySQL, SQL Server</p>
                         </Col>
                         <Col lg={3}>
                             <Image src={prog}/>
                             <h6>Programming Language</h6>
+                            <p>C, C++, C#, Java, JavaScript, Python</p>
                         </Col>
                     </Row>
                 </Container>
-                <p>“Sometimes the questions are complicated and the answers are simple.<br/>”Dr. Seuss</p>
-
             </div>
         );
     }
