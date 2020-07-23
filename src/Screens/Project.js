@@ -1,20 +1,21 @@
 import * as React from "react";
 import {Container, Image, Row} from "react-bootstrap";
 import Col from "react-bootstrap/Col";
-import web from '../Image/web_development.svg';
 import mobile from '../Image/mobile_development.svg';
-import db from '../Image/server.svg';
+import geofit from '../Image/geofit.png'
+import pfe from '../Image/pfe.png';
 
 class Project extends React.Component {
     render() {
         return (
 
-            <div id="project" className="project">
+            <div id="project" className="project" >
                 <style type="text/css">
                     {`
                         .project {
+                          clip-path: polygon(0 15%, 100% 0%, 100% 86%, 0% 100%);
                           background-color: #f8f9fa;
-                          padding : 50px;
+                          padding : 60px;
                         }
                      `}
                 </style>
@@ -23,7 +24,8 @@ class Project extends React.Component {
                         <h3>Projects</h3>
                     </Row>
                     <Row>
-                        <Col lg={4}><Image src={web} class />
+                        <Col lg={4}>
+                            <img src={geofit} width="230" height="130" />
                             <h6>Development of a decision information system for Pexiluis Africa
                                 management.</h6>
                             <p>Electron / Angular, Spring, MySQL</p>
@@ -34,7 +36,7 @@ class Project extends React.Component {
                             <p>Dynamics CRM 365</p>
                         </Col>
                         <Col lg={4}>
-                            <Image src={db}/>
+                            <img src={pfe} width="230" height="130"/>
                             <h6>University project management</h6>
                             <p>Php, Bootstrap, MySQL</p>
                         </Col>

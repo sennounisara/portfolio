@@ -9,7 +9,6 @@ import prog from '../Image/proud_coder.svg';
 class Skills extends React.Component {
     render() {
         return (
-
             <div id="skills" className="skills">
                 <style type="text/css">
                     {`
