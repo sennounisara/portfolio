@@ -13,8 +13,10 @@ class Education extends React.Component {
                     {`
                         .education {
                           background-color: #f8f9fa;
-                          padding : 60px;
-                          clip-path: polygon(0 15%, 100% 0%, 100% 86%, 0% 100%);
+                          padding : 50px;
+                          clip-path: polygon(0 13%, 100% 0%, 100% 87%, 0% 100%);
+                          padding-top:100px;
+                          padding-bottom:100px;
                         }
                     
                         .btn-xxl {

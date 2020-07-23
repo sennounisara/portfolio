@@ -9,13 +9,14 @@ import prog from '../Image/proud_coder.svg';
 class Skills extends React.Component {
     render() {
         return (
+
             <div id="skills" className="skills">
                 <style type="text/css">
                     {`
                         .skills {
                           padding : 50px;
                         }
-                     `}
+                        `}
                 </style>
                 <Container >
                     <Row>
@@ -43,6 +44,8 @@ class Skills extends React.Component {
                         </Col>
                     </Row>
                 </Container>
+                <p>“Sometimes the questions are complicated and the answers are simple.<br/>”Dr. Seuss</p>
+
             </div>
         );
     }

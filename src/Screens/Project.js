@@ -1,7 +1,7 @@
 import * as React from "react";
 import {Container, Image, Row} from "react-bootstrap";
 import Col from "react-bootstrap/Col";
-import mobile from '../Image/mobile_development.svg';
+import dynamics from '../Image/Dynamics.PNG';
 import geofit from '../Image/geofit.png'
 import pfe from '../Image/pfe.png';
 
@@ -15,7 +15,9 @@ class Project extends React.Component {
                         .project {
                           clip-path: polygon(0 15%, 100% 0%, 100% 86%, 0% 100%);
                           background-color: #f8f9fa;
-                          padding : 60px;
+                          padding : 50px;
+                           padding-top:100px;
+                           padding-bottom:100px;
                         }
                      `}
                 </style>
@@ -31,7 +33,7 @@ class Project extends React.Component {
                             <p>Electron / Angular, Spring, MySQL</p>
                         </Col>
                         <Col lg={4}>
-                            <Image src={mobile}/>
+                            <Image src={dynamics} width="230" height="130"/>
                             <h6>Development the Transport Management System under Dynamics 365</h6>
                             <p>Dynamics CRM 365</p>
                         </Col>

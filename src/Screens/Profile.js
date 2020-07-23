@@ -11,7 +11,7 @@ class Profile extends React.Component {
                 <style type="text/css">
                     {`
                         .profil{
-                            margin : 50px;
+                            padding : 50px;
                         }
                         .btn-xxl {
                           padding: 1rem 1.5rem;
