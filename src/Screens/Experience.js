@@ -59,7 +59,7 @@ export default function Experience() {
                     <TimelineConnector className="languer" />
                 </TimelineSeparator>
                 <TimelineContent>
-                    <Paper elevation={3} className={classes.paper}>
+                    <Paper style={{backgroundColor:"#F8F9FA"}} elevation={3} className={classes.paper}>
                         <Typography variant="h6" component="h1">
                             SAGlobal
                         </Typography>
@@ -74,12 +74,12 @@ export default function Experience() {
                     </Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
-                    <TimelineDot color="primary">
+                    <TimelineDot>
                         <LaptopMacIcon />
                     </TimelineDot>
                 </TimelineSeparator>
                 <TimelineContent>
-                    <Paper elevation={3} className={classes.paper}>
+                    <Paper style={{backgroundColor:"#F8F9FA"}} elevation={3} className={classes.paper}>
                         <Typography variant="h6" component="h1">
                             Pexiluis Africa
                         </Typography>

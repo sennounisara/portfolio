@@ -1,5 +1,6 @@
 import React, { useState }  from 'react';
-import logo from './Image/SS.png';
+import logoWhite from './Image/SS.png';
+import logoDark from './Image/SSWhite.png';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Nav, Navbar} from "react-bootstrap";
@@ -19,6 +20,7 @@ function App() {
     const themeToggler = () => {
         theme === 'light' ? setTheme('dark') : setTheme('light')
     }
+    const logo = (theme=='light')?logoWhite:logoDark;
   return (
       <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
           <>
@@ -45,7 +47,7 @@ function App() {
     <Experience/>
     <Project/>
     <Skills/>
-    <Contact/>
+    <Contact theme={theme}/>
     </div>
           </>
       </ThemeProvider>

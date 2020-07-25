@@ -1,6 +1,6 @@
 export const lightTheme = {
     body: '#FFF',
-    text: '#363537',
+    text: '#1E1E1E',
     toggleBorder: '#FFF',
     blocs : '#F8F9FA',
     nav: 'light',
@@ -11,7 +11,7 @@ export const darkTheme = {
     body: '#363537',
     text: '#FAFAFA',
     toggleBorder: '#6B8096',
-    blocs : '#5C5C5A',
+    blocs : '#686669',
     nav: 'dark',
     variant: 'dark',
     fill: '#FFF',

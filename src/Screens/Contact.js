@@ -1,6 +1,7 @@
 import * as React from "react";
 import {Container, Row, Col} from "react-bootstrap";
-import logo from '../Image/SS.png';
+import logoWhite from '../Image/SS.png';
+import logoDrak from '../Image/SSWhite.png';
 import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
 import PhoneIphoneOutlinedIcon from '@material-ui/icons/PhoneIphoneOutlined';
 import ContactMailOutlinedIcon from '@material-ui/icons/ContactMailOutlined';
@@ -9,14 +10,13 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import './style.css';
-import borderT from "../Image/borderT.svg";
 
 class Contact extends React.Component {
     render() {
+        const logo = (this.props.theme=='light')?logoWhite:logoDrak;
         return (
-
             <div id="contact" >
-            <div className="blocs">
+            <div className="blocs contact">
                 <Container>
                     <Row>
                         <Col lg={4}>
