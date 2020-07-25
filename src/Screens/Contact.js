@@ -8,25 +8,14 @@ import CodeOutlinedIcon from '@material-ui/icons/CodeOutlined';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import './style.css';
 
 class Contact extends React.Component {
     render() {
         return (
 
-            <div id="contact" className="contact">
-                <style type="text/css">
-                    {`
-                        .contact {
-                          background-color: #f8f9fa;
-                          padding : 50px;
-                        }
-                    
-                        .btn-xxl {
-                          padding: 1rem 1.5rem;
-                          font-size: 1.5rem;
-                        }
-                        `}
-                </style>
+            <div id="contact" className="blocs">
+
                 <Container>
                     <Row>
                         <Col lg={4}>

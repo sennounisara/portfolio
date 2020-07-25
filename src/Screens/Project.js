@@ -9,13 +9,11 @@ class Project extends React.Component {
     render() {
         return (
 
-            <div id="project" className="project" >
+            <div id="project" className="project blocs" >
                 <style type="text/css">
                     {`
                         .project {
-                          clip-path: polygon(0 15%, 100% 0%, 100% 86%, 0% 100%);
-                          background-color: #f8f9fa;
-                          padding : 50px;
+                          clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
                            padding-top:100px;
                            padding-bottom:100px;
                         }

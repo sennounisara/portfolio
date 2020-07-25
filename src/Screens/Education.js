@@ -3,18 +3,17 @@ import {Container, Image, Row} from "react-bootstrap";
 import Col from "react-bootstrap/Col";
 import emsi from "../Image/Emsi.png"
 import fsa from "../Image/fsa.png"
+import './style.css';
 
 class Education extends React.Component {
     render() {
         return (
 
-            <div id="education" className="education">
+            <div id="education" className="blocs education">
                 <style type="text/css">
                     {`
                         .education {
-                          background-color: #f8f9fa;
-                          padding : 50px;
-                          clip-path: polygon(0 13%, 100% 0%, 100% 87%, 0% 100%);
+                          clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
                           padding-top:100px;
                           padding-bottom:100px;
                         }
