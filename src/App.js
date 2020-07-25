@@ -24,7 +24,7 @@ function App() {
           <>
               <GlobalStyle/>
     <div className="App">
-      <Navbar bg="light" expand="lg" fixed="top" sticky="top" className='shadow-lg' >
+      <Navbar variant={theme}  expand="lg" fixed="top" sticky="top" className='shadow-lg' >
         <Container>
           <Navbar.Brand href="#home"><img alt="sennouni sara" className="image" src={logo} width={60} /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

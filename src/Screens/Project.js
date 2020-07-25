@@ -4,21 +4,14 @@ import Col from "react-bootstrap/Col";
 import dynamics from '../Image/Dynamics.PNG';
 import geofit from '../Image/geofit.png'
 import pfe from '../Image/pfe.png';
+import borderT from "../Image/borderT.svg";
+import BorderB from "../Image/borderBottom.svg";
 
 class Project extends React.Component {
     render() {
         return (
-
-            <div id="project" className="project blocs" >
-                <style type="text/css">
-                    {`
-                        .project {
-                          clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
-                           padding-top:100px;
-                           padding-bottom:100px;
-                        }
-                     `}
-                </style>
+            <div id="project" >
+                <div  className="project blocs">
                 <Container >
                     <Row>
                         <h3>Projects</h3>
@@ -32,7 +25,7 @@ class Project extends React.Component {
                         </Col>
                         <Col lg={4}>
                             <Image src={dynamics} width="230" height="130"/>
-                            <h6>Development the Transport Management System under Dynamics 365</h6>
+                            <h6>Development of a Transport Management System using Dynamics 365</h6>
                             <p>Dynamics CRM 365</p>
                         </Col>
                         <Col lg={4}>
@@ -42,6 +35,7 @@ class Project extends React.Component {
                         </Col>
                     </Row>
                 </Container>
+                </div>
             </div>
         );
     }

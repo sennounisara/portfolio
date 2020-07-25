@@ -10,14 +10,7 @@ class Skills extends React.Component {
     render() {
         return (
 
-            <div id="skills" className="skills">
-                <style type="text/css">
-                    {`
-                        .skills {
-                          padding : 50px;
-                        }
-                        `}
-                </style>
+            <div id="skills" className="skills pad">
                 <Container >
                     <Row>
                         <h3>Skills</h3>

@@ -1,4 +1,14 @@
 
 .blocs {
-    padding : 50px;
+    padding: 15vh 5vw ;
+}
+.pad {
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+.profile {
+    padding-top: 5vw;
+}
+.project, .education{
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
 }

@@ -28,13 +28,9 @@ export default function Experience() {
     const classes = useStyles();
 
     return (
-        <div id="experience" className="experience">
+        <div id="experience" className="pad">
             <style>
                 {`
-                  .experience {
-                     padding: 50px;
-                     
-                  }
                    .languer{
                    height: 100px;
                    }

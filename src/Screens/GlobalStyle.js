@@ -9,4 +9,13 @@ export const GlobalStyle = createGlobalStyle
   .blocs {
     background: ${({ theme }) => theme.blocs};
   }
+  Navbar {
+    bg: ${({ theme }) => theme.nav};
+  }
+  Paper {
+    backgroundColor : ${({ theme }) => theme.blocs} ;
+  }
+  path{
+    fill:${({ theme }) => theme.fill};
+  }
   `

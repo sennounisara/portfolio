@@ -9,13 +9,14 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import './style.css';
+import borderT from "../Image/borderT.svg";
 
 class Contact extends React.Component {
     render() {
         return (
 
-            <div id="contact" className="blocs">
-
+            <div id="contact" >
+            <div className="blocs">
                 <Container>
                     <Row>
                         <Col lg={4}>
@@ -45,7 +46,7 @@ class Contact extends React.Component {
                         </Col>
                     </Row>
                 </Container>
-
+            </div>
             </div>
         );
     }

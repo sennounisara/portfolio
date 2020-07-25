@@ -1,5 +1,4 @@
 import * as React from "react";
-import App from "../App";
 import software from '../Image/software_engineer.svg'
 import {Col, Container, Row} from "react-bootstrap";
 
@@ -7,22 +6,11 @@ import {Col, Container, Row} from "react-bootstrap";
 class Profile extends React.Component {
     render() {
         return (
-            <div id="profile" className="profil">
-                <style type="text/css">
-                    {`
-                        .profil{
-                            padding : 50px;
-                        }
-                        .btn-xxl {
-                          padding: 1rem 1.5rem;
-                          font-size: 1.5rem;
-                        }
-                        `}
-                </style>
+            <div id="profile" className="pad profile">
                 <Container>
                     <Row xs={1} md={2}>
                         <Col lg={8}>
-                            <h3>SENNOUNI SARA</h3>
+                            <h3>I'am SARA SENNOUNI</h3>
                             <p>I am Moroccan, responsible and hard-working IT person. Being worked for
                                 different projects helped me to adapt to changes quickly and made me a
                                 mature team worker. I am able to work well both in a team environment as

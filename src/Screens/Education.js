@@ -4,27 +4,16 @@ import Col from "react-bootstrap/Col";
 import emsi from "../Image/Emsi.png"
 import fsa from "../Image/fsa.png"
 import './style.css';
+import BorderB from "../Image/borderBottom.svg"
+import borderT from "../Image/borderT.svg"
 
 class Education extends React.Component {
     render() {
         return (
 
             <div id="education" className="blocs education">
-                <style type="text/css">
-                    {`
-                        .education {
-                          clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
-                          padding-top:100px;
-                          padding-bottom:100px;
-                        }
-                    
-                        .btn-xxl {
-                          padding: 1rem 1.5rem;
-                          font-size: 1.5rem;
-                        }
-                        `}
-                </style>
-                <Container>
+
+                <Container >
                     <Row>
                         <h3>Education</h3>
                     </Row>
