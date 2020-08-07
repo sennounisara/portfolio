@@ -5,6 +5,7 @@ import web from '../Image/web_development.svg';
 import mobile from '../Image/mobile_development.svg';
 import db from '../Image/server.svg';
 import prog from '../Image/proud_coder.svg';
+import design from '../Image/design.svg';
 
 class Skills extends React.Component {
     render() {
@@ -36,8 +37,15 @@ class Skills extends React.Component {
                             <p>C, C++, C#, Java, JavaScript, Python</p>
                         </Col>
                     </Row>
+                    <Row>
+                        <Col lg={3}>
+                            <Image src={design}/>
+                            <h6>Design</h6>
+                            <p>Adobe Xd, Scene Builder </p>
+                        </Col>
+                    </Row>
                 </Container>
-                <p>“Sometimes the questions are complicated and the answers are simple.<br/>”Dr. Seuss</p>
+                <p>“Sometimes the questions are complicated and the answers are simple.”<br/>Dr. Seuss</p>
 
             </div>
         );

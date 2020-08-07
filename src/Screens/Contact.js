@@ -13,7 +13,7 @@ import './style.css';
 
 class Contact extends React.Component {
     render() {
-        const logo = (this.props.theme=='light')?logoWhite:logoDrak;
+        const logo = (this.props.theme==='light')?logoWhite:logoDrak;
         return (
             <div id="contact" >
             <div className="blocs contact">

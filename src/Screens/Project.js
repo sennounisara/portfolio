@@ -4,8 +4,7 @@ import Col from "react-bootstrap/Col";
 import dynamics from '../Image/Dynamics.PNG';
 import geofit from '../Image/geofit.png'
 import pfe from '../Image/pfe.png';
-import borderT from "../Image/borderT.svg";
-import BorderB from "../Image/borderBottom.svg";
+import './style.css'
 
 class Project extends React.Component {
     render() {
@@ -18,18 +17,18 @@ class Project extends React.Component {
                     </Row>
                     <Row>
                         <Col lg={4}>
-                            <img src={geofit} width="230" height="130" />
+                            <img className="zoom" src={geofit} width="230" height="130" />
                             <h6>Development of a decision information system for Pexiluis Africa
                                 management.</h6>
                             <p>Electron / Angular, Spring, MySQL</p>
                         </Col>
                         <Col lg={4}>
-                            <Image src={dynamics} width="230" height="130"/>
+                            <Image className="zoom" src={dynamics} width="230" height="130"/>
                             <h6>Development of a Transport Management System using Dynamics 365</h6>
                             <p>Dynamics CRM 365</p>
                         </Col>
                         <Col lg={4}>
-                            <img src={pfe} width="230" height="130"/>
+                            <img className="zoom" src={pfe} width="230" height="130"/>
                             <h6>University project management</h6>
                             <p>Php, Bootstrap, MySQL</p>
                         </Col>
