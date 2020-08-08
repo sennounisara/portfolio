@@ -7,13 +7,11 @@ import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
-import FastfoodIcon from '@material-ui/icons/Fastfood';
 import LaptopMacIcon from '@material-ui/icons/LaptopMac';
-import HotelIcon from '@material-ui/icons/Hotel';
-import RepeatIcon from '@material-ui/icons/Repeat';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import {Container, Row} from "react-bootstrap";
+import Col from "react-bootstrap/Col";
 
 const useStyles = makeStyles((theme) => ({
     paper: {
@@ -42,7 +40,7 @@ export default function Experience() {
             </style>
             <Container >
                 <Row>
-                    <h3>Work Experience</h3>
+                    <Col> <h3>Work Experience</h3></Col>
                 </Row>
                 <Row>
         <Timeline align="alternate">

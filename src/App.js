@@ -43,10 +43,11 @@ function App() {
         </Container>
     </Navbar>
     <Profile/>
-    <Education/>
+        <Skills/>
+
     <Experience/>
     <Project/>
-    <Skills/>
+        <Education/>
     <Contact theme={theme}/>
     </div>
           </>

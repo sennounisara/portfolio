@@ -4,33 +4,31 @@ import Col from "react-bootstrap/Col";
 import emsi from "../Image/Emsi.png"
 import fsa from "../Image/fsa.png"
 import './style.css';
-import BorderB from "../Image/borderBottom.svg"
-import borderT from "../Image/borderT.svg"
 
 class Education extends React.Component {
     render() {
         return (
-
-            <div id="education" className="blocs education">
+            <div id="education" >
 
                 <Container >
                     <Row>
-                        <h3>Education</h3>
+                        <Col> <h3>Education</h3></Col>
                     </Row>
                     <Row>
                         <Col lg={6}>
-                            <img src={emsi} width="350px"  />
+                            <img src={emsi} width="350px" alt="EMSI" />
                             <h6>ECOLE MAROCAINE DES SCIENCES D'INGENIEUR - CASABLANCA</h6>
                             <p>engineering degree IT method applied to business management</p>
                         </Col>
                         <Col lg={6}>
-                            <img src={fsa} width="280px" />
+                            <img src={fsa} width="280px" alt="FSA"/>
                             <h6>FACULTÉ DES SCIENCES - AGADIR</h6>
                             <p>Bac + 3 in software engineering</p>
                         </Col>
                     </Row>
                 </Container>
 
+                <p>“Sometimes the questions are complicated and the answers are simple.”<br/>Dr. Seuss</p>
             </div>
         );
     }

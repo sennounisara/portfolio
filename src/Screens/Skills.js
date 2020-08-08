@@ -6,15 +6,16 @@ import mobile from '../Image/mobile_development.svg';
 import db from '../Image/server.svg';
 import prog from '../Image/proud_coder.svg';
 import design from '../Image/design.svg';
+import erp from "../Image/ERP.svg";
 
 class Skills extends React.Component {
     render() {
         return (
 
-            <div id="skills" className="skills pad">
+            <div id="skills" className="skills pad blocs education">
                 <Container >
                     <Row>
-                        <h3>Skills</h3>
+                        <Col> <h3>Skills</h3></Col>
                     </Row>
                     <Row>
                         <Col lg={3}><Image src={web} class />
@@ -43,9 +44,13 @@ class Skills extends React.Component {
                             <h6>Design</h6>
                             <p>Adobe Xd, Scene Builder </p>
                         </Col>
+                        <Col lg={3}>
+                            <Image src={erp}/>
+                            <h6>ERP / CRM</h6>
+                            <p>CRM Dynamics 365, Odoo </p>
+                        </Col>
                     </Row>
                 </Container>
-                <p>“Sometimes the questions are complicated and the answers are simple.”<br/>Dr. Seuss</p>
 
             </div>
         );

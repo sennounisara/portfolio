@@ -13,7 +13,7 @@ class Project extends React.Component {
                 <div  className="project blocs">
                 <Container >
                     <Row>
-                        <h3>Projects</h3>
+                        <Col> <h3>Projects</h3></Col>
                     </Row>
                     <Row>
                         <Col lg={4}>
