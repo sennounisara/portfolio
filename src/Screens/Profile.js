@@ -1,7 +1,7 @@
 import * as React from "react";
 import software from '../Image/software_engineer.svg'
 import {Button, Col, Container, Row} from "react-bootstrap";
-
+import './style.css'
 
 class Profile extends React.Component {
     render() {
@@ -23,9 +23,9 @@ class Profile extends React.Component {
                                 mature team worker. I am able to work well both in a team environment as
                                 well as using own initiative. I am able to work well under pressure and adhere
                                 to strict deadlines.</p>
-                            <Button style={{backgroundColor: '#558CDA'}} size="lg" className='shadow-lg'>
+                            <a href="https://drive.google.com/file/d/1N6QcNdt5rUhhSQK6AH3S1-sOAdhU1DMZ/view?usp=sharing"><Button  size="lg" className="resume">
                                 View Resume
-                            </Button>
+                            </Button></a>
                         </Col>
                         <Col lg={4}><img src={software} width="100%"/></Col>
                     </Row>

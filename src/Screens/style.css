@@ -20,3 +20,9 @@
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2);
 }
+.resume{
+    box-shadow: 10px 10px 10px #bebebe;
+}
+.resume:hover {
+    box-shadow: 10px 10px 10px #b1b1b1;
+}

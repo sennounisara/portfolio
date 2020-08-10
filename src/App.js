@@ -42,7 +42,7 @@ function App() {
           </Navbar.Collapse>
         </Container>
     </Navbar>
-    <Profile/>
+    <Profile theme={theme}/>
         <Skills/>
 
     <Experience/>

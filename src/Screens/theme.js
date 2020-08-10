@@ -6,6 +6,7 @@ export const lightTheme = {
     nav: 'light',
     variant: 'light',
     fill: '#363537',
+
 }
 export const darkTheme = {
     body: '#363537',
