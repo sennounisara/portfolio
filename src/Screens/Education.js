@@ -1,5 +1,5 @@
 import * as React from "react";
-import {Container, Image, Row} from "react-bootstrap";
+import {Container, Row} from "react-bootstrap";
 import Col from "react-bootstrap/Col";
 import emsi from "../Image/Emsi.png"
 import fsa from "../Image/fsa.png"
@@ -15,12 +15,12 @@ class Education extends React.Component {
                         <Col> <h3>Education</h3></Col>
                     </Row>
                     <Row>
-                        <Col lg={6}>
+                        <Col lg={6} md={6}>
                             <img src={emsi} width="350px" alt="EMSI" />
                             <h6>ECOLE MAROCAINE DES SCIENCES D'INGENIEUR - CASABLANCA</h6>
                             <p>engineering degree IT method applied to business management</p>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={6} md={6}>
                             <img src={fsa} width="280px" alt="FSA"/>
                             <h6>FACULTÉ DES SCIENCES - AGADIR</h6>
                             <p>Bac + 3 in software engineering</p>

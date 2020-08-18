@@ -27,7 +27,7 @@ class Profile extends React.Component {
                                 View Resume
                             </Button></a>
                         </Col>
-                        <Col lg={4}><img src={software} width="100%"/></Col>
+                        <Col lg={4}><img alt="software engineer" src={software} width="100%"/></Col>
                     </Row>
                 </Container>
             </div>
