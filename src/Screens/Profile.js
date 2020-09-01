@@ -18,11 +18,9 @@ class Profile extends React.Component {
                     <Row xs={1} md={2}>
                         <Col lg={8}>
                             <h3>I'am SARA SENNOUNI</h3>
-                            <p>I am Moroccan, responsible and hard-working IT person. Being worked for
-                                different projects helped me to adapt to changes quickly and made me a
-                                mature team worker. I am able to work well both in a team environment as
-                                well as using own initiative. I am able to work well under pressure and adhere
-                                to strict deadlines.</p>
+                            <p>I am a responsible, and hard-working IT person.
+                                Who worked for different projects and that helped me to adapt to changes quickly and made me a mature team worker. I can work well both in a team environment as well as using my initiative.
+                                I can work under pressure and adhere to strict deadlines.</p>
                             <a href="https://drive.google.com/file/d/1N6QcNdt5rUhhSQK6AH3S1-sOAdhU1DMZ/view?usp=sharing"><Button  size="lg" className="resume">
                                 View Resume
                             </Button></a>

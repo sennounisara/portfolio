@@ -47,6 +47,27 @@ export default function Experience() {
             <TimelineItem>
                 <TimelineOppositeContent>
                     <Typography variant="body2" color="textSecondary">
+                        09/2020
+                    </Typography>
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                    <TimelineDot>
+                        <LaptopMacIcon />
+                    </TimelineDot>
+                    <TimelineConnector className="languer" />
+                </TimelineSeparator>
+                <TimelineContent>
+                    <Paper style={{backgroundColor:"#F8F9FA"}} elevation={3} className={classes.paper}>
+                        <Typography variant="h6" component="h1">
+                            SAGlobal
+                        </Typography>
+                        <Typography>Developer CRM Dynamics 365</Typography>
+                    </Paper>
+                </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+                <TimelineOppositeContent>
+                    <Typography variant="body2" color="textSecondary">
                         03/2020 - 08/2020
                     </Typography>
                 </TimelineOppositeContent>
@@ -61,7 +82,7 @@ export default function Experience() {
                         <Typography variant="h6" component="h1">
                             SAGlobal
                         </Typography>
-                        <Typography>Development the Transport Management System under Dynamics 365</Typography>
+                        <Typography>Internship - Development the Transport Management System under Dynamics 365</Typography>
                     </Paper>
                 </TimelineContent>
             </TimelineItem>
@@ -82,7 +103,7 @@ export default function Experience() {
                             Pexiluis Africa
                         </Typography>
                         <Typography>
-                            Development of a decision information system for Pexiluis Africa management.
+                            Internship - Development of a decision information system for Pexiluis Africa management.
                         </Typography>
                     </Paper>
                 </TimelineContent>

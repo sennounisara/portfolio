@@ -20,7 +20,7 @@ function App() {
     const themeToggler = () => {
         theme === 'light' ? setTheme('dark') : setTheme('light')
     }
-    const logo = (theme=='light')?logoWhite:logoDark;
+    const logo = (theme==='light')?logoWhite:logoDark;
   return (
       <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
           <>
@@ -28,7 +28,9 @@ function App() {
     <div className="App">
       <Navbar variant={theme}  expand="lg" fixed="top" sticky="top" className='shadow-lg' >
         <Container>
-          <Navbar.Brand href="#home"><img alt="sennouni sara" className="image" src={logo} width={60} /></Navbar.Brand>
+          <Navbar.Brand href="#home">
+              <img alt="sennouni sara" className="image" src={logo} width={60} />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <div className="mr-auto"/>

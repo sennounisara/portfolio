@@ -35,7 +35,7 @@ class Skills extends React.Component {
                         <Col lg={3} md={6}>
                             <Image src={prog}/>
                             <h6>Programming Language</h6>
-                            <p>C, C++, C#, Java, JavaScript, Python</p>
+                            <p>C, C++, C#, Java, JavaScript, Python, Dart</p>
                         </Col>
                     </Row>
                     <Row>
