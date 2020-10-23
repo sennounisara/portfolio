@@ -33,7 +33,7 @@ class Contact extends React.Component {
                         <Col lg={4}>
                             <LocationOnOutlinedIcon color={"primary"}/> Boulevard Laymoune - Morocco, Casablanca<br/>
                             <PhoneIphoneOutlinedIcon color={"primary"}/> +212 698-662949<br/>
-                            <ContactMailOutlinedIcon color={"primary"}/> sara.sennouni1214@gmail.com
+                            <ContactMailOutlinedIcon color={"primary"}/> sarasennouni@outlook.com
                         </Col>
                         <Col lg={4}>
                             <h6>About me</h6>
