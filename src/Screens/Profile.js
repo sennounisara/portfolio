@@ -17,7 +17,7 @@ class Profile extends React.Component {
                 <Container>
                     <Row xs={1} md={2}>
                         <Col lg={8}>
-                            <h3>I'am SARA SENNOUNI</h3>
+                            <h3>I am SARA SENNOUNI</h3>
                             <p>I am a responsible, and hard-working IT person.
                                 Who worked for different projects and that helped me to adapt to changes quickly and made me a mature team worker. I can work well both in a team environment as well as using my initiative.
                                 I can work under pressure and adhere to strict deadlines.</p>

@@ -20,7 +20,7 @@ class Skills extends React.Component {
                     <Row>
                         <Col lg={3} md={6}><Image src={web} class />
                             <h6>Web Development</h6>
-                            <p>Spring, Bootstrap, React, Angular</p>
+                            <p>Spring, Bootstrap, React, Angular, Prado</p>
                         </Col>
                         <Col lg={3} md={6}>
                             <Image src={mobile}/>
@@ -35,7 +35,7 @@ class Skills extends React.Component {
                         <Col lg={3} md={6}>
                             <Image src={prog}/>
                             <h6>Programming Language</h6>
-                            <p>C, C++, C#, Java, JavaScript, Python, Dart</p>
+                            <p>C, C++, C#, Java, JavaScript, Python, Dart, PHP</p>
                         </Col>
                     </Row>
                     <Row>

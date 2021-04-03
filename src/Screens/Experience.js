@@ -47,7 +47,28 @@ export default function Experience() {
             <TimelineItem>
                 <TimelineOppositeContent>
                     <Typography variant="body2" color="textSecondary">
-                        09/2020
+                        02/2021
+                    </Typography>
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                    <TimelineDot>
+                        <LaptopMacIcon />
+                    </TimelineDot>
+                    <TimelineConnector className="languer" />
+                </TimelineSeparator>
+                <TimelineContent>
+                    <Paper style={{backgroundColor:"#F8F9FA"}} elevation={3} className={classes.paper}>
+                        <Typography variant="h6" component="h1">
+                            Intelcia IT Solution
+                        </Typography>
+                        <Typography>PHP Developer</Typography>
+                    </Paper>
+                </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+                <TimelineOppositeContent>
+                    <Typography variant="body2" color="textSecondary">
+                        09/2020 - 01/2021
                     </Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
