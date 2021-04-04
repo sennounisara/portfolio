@@ -46,7 +46,7 @@ export default function Experience() {
         <Timeline align="alternate">
             <TimelineItem>
                 <TimelineOppositeContent>
-                    <Typography variant="body2" color="textSecondary">
+                    <Typography variant="body2" >
                         02/2021
                     </Typography>
                 </TimelineOppositeContent>
@@ -57,7 +57,7 @@ export default function Experience() {
                     <TimelineConnector className="languer" />
                 </TimelineSeparator>
                 <TimelineContent>
-                    <Paper style={{backgroundColor:"#F8F9FA"}} elevation={3} className={classes.paper}>
+                    <Paper style={{backgroundColor:"#F8F9FA"}} elevation={3} className={classes.paper} >
                         <Typography variant="h6" component="h1">
                             Intelcia IT Solution
                         </Typography>
@@ -67,7 +67,7 @@ export default function Experience() {
             </TimelineItem>
             <TimelineItem>
                 <TimelineOppositeContent>
-                    <Typography variant="body2" color="textSecondary">
+                    <Typography variant="body2" >
                         09/2020 - 01/2021
                     </Typography>
                 </TimelineOppositeContent>
@@ -88,7 +88,7 @@ export default function Experience() {
             </TimelineItem>
             <TimelineItem>
                 <TimelineOppositeContent>
-                    <Typography variant="body2" color="textSecondary">
+                    <Typography variant="body2" >
                         03/2020 - 08/2020
                     </Typography>
                 </TimelineOppositeContent>
@@ -109,7 +109,7 @@ export default function Experience() {
             </TimelineItem>
             <TimelineItem>
                 <TimelineOppositeContent>
-                    <Typography variant="body2" color="textSecondary">
+                    <Typography variant="body2" >
                         07/2020 - 09/2020
                     </Typography>
                 </TimelineOppositeContent>

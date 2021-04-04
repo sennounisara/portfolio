@@ -1,5 +1,5 @@
 import * as React from "react";
-import {Container, Image, Row} from "react-bootstrap";
+import {Container,Card, Image, Row} from "react-bootstrap";
 import Col from "react-bootstrap/Col";
 import dynamics from '../Image/Dynamics.PNG';
 import geofit from '../Image/geofit.png'
@@ -18,25 +18,48 @@ class Project extends React.Component {
                     </Row>
                     <Row>
                         <Col lg={3} md={6}>
-                            <img className="zoom" src={geofit} width="230" height="130" />
-                            <h6>Development of a decision information system for Pexiluis Africa
-                                management.</h6>
-                            <p>Desktop: Electron / Web: Angular, Spring / database: MySQL</p>
+                        <Card style={{height:"320px",marginTop:10}} className="Card">
+                            <Card.Img variant="top" className="zoom" src={geofit} height="140" />
+                            <Card.Body>
+                                <Card.Text>
+                                    <h6>Development of a decision information system for Pexiluis Africa
+                                        management.</h6>
+                                    <p>Desktop: Electron / Web: Angular, Spring / database: MySQL</p>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
                         </Col>
                         <Col lg={3} md={6}>
-                            <Image className="zoom" src={dynamics} width="230" height="130"/>
-                            <h6>Development of a Transport Management System using Dynamics 365</h6>
-                            <p>Dynamics CRM 365</p>
+                        <Card style={{height:"320px",marginTop:10}} className="Card">
+                            <Card.Img variant="top" className="zoom" src={dynamics} height="140" />
+                            <Card.Body>
+                                <Card.Text>
+                                    <h6>Development of a Transport Management System using Dynamics 365</h6>
+                                    <p>Dynamics CRM 365</p>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
                         </Col>
                         <Col lg={3} md={6}>
-                            <img className="zoom" src={pfe} width="230" height="130"/>
-                            <h6>University project management</h6>
-                            <p>Php, Bootstrap, MySQL</p>
-                        </Col>
+                        <Card style={{height:"320px",marginTop:10}} className="Card">
+                            <Card.Img variant="top" className="zoom" src={pfe}  height="140"  />
+                            <Card.Body>
+                                <Card.Text>
+                                    <h6>University project management</h6>
+                                    <p>Php, Bootstrap, MySQL</p>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card></Col>
                         <Col lg={3} md={6}>
-                            <img className="zoom" src={smartfocus} width="230" height="130"/>
-                            <h6>Smart Focus</h6>
-                            <p>Web: ReactJs / Mobile: Flutter </p>
+                            <Card style={{height:"320px" ,marginTop:10}} className="Card">
+                                <Card.Img variant="top" className="zoom" src={smartfocus}  height="140" />
+                                <Card.Body>
+                                    <Card.Text>
+                                        <h6>Smart Focus</h6>
+                                        <p>Web: ReactJs / Mobile: Flutter </p>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
                         </Col>
                     </Row>
                 </Container>

@@ -26,7 +26,7 @@ function App() {
           <>
               <GlobalStyle/>
     <div className="App">
-      <Navbar variant={theme}  expand="lg" fixed="top" sticky="top" className='shadow-lg' >
+      <Navbar variant={theme}  expand="lg" className='shadow-lg' >
         <Container>
           <Navbar.Brand href="#home">
               <img alt="sennouni sara" className="image" src={logo} width={60} />
@@ -47,8 +47,8 @@ function App() {
     <Profile theme={theme}/>
         <Skills/>
 
-    <Experience/>
-    <Project/>
+    <Experience theme={theme}/>
+    <Project theme={theme}/>
         <Education/>
     <Contact theme={theme}/>
     </div>

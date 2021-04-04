@@ -18,4 +18,7 @@ export const GlobalStyle = createGlobalStyle
   path{
     fill:${({ theme }) => theme.fill};
   }
+  .Card {
+    background-color: ${({theme}) => theme.card};
+  }
   `
